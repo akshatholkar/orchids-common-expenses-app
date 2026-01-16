@@ -1,0 +1,20 @@
+12:38:36 PM [express] serving on port 3000
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2m1:23:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/contexts/LanguageContext.tsx, /src/index.css[22m
+[2m1:24:00 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: /home/user/app/src/client/src/contexts/LanguageContext.tsx: Unexpected token (195:2)
+
+[0m [90m 193 |[39m       }[33m,[39m
+ [90m 194 |[39m     }[33m,[39m
+[31m[1m>[22m[39m[90m 195 |[39m   }[33m;[39m
+ [90m     |[39m   [31m[1m^[22m[39m
+ [90m 196 |[39m
+ [90m 197 |[39m   [36mconst[39m t [33m=[39m (key[33m:[39m string)[33m:[39m string [33m=>[39m {
+ [90m 198 |[39m     [36mreturn[39m translations[language][key [36mas[39m keyof [36mtypeof[39m translations[[36mtypeof[39m language]] [33m||[39m key[33m;[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/user/app/src/client/src/contexts/LanguageContext.tsx[39m:195:2
+[33m  193 |        },
+  194 |      },
+  195 |    };
+      |    ^
+  196 |  
+  197 |    const t = (key: string): string => {[39m
